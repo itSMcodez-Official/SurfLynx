@@ -1,7 +1,12 @@
 <resources>
+    
+    <style name="BaseTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
 
 <!-- Default Theme -->
-    <style name="DefaultTheme" parent="Theme.Material3.Dark.NoActionBar">
+    <style name="DefaultTheme" parent="BaseTheme">
         <item name="colorPrimary">@color/default_theme_primary</item>
         <item name="colorOnPrimary">@color/default_theme_onPrimary</item>
         <item name="colorPrimaryContainer">@color/default_theme_primaryContainer</item>
